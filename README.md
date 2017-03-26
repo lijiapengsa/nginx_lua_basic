@@ -1,6 +1,7 @@
 # nginx_lua_basic
 nginx_lua 基础镜像
 
+
 集成的模块和版本信息：
 ```
 ENV nginx_v=nginx-1.11.1

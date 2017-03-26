@@ -42,7 +42,7 @@ unzip $nginx_upstream_check_module_v.tar.gz
 
 WORKDIR /usr/local/src/$luajit_v
 RUN make PREFIX=/usr/local/luajit && make install PREFIX=/usr/local/luajit
-# && ln -s /usr/local/lib/libluajit-5.1.so.2 /lib64/libluajit-5.1.so.2
+
 # RUN cd ../ && sed -i -e 's/${NGINX_VERSION}//g' -e 's/nginx\//ERROR/g' -e 's/"NGINX"/"ERROR"/g' src/core/nginx.h
 WORKDIR /usr/local/src/lua-cjson-2.1.0
 RUN \
