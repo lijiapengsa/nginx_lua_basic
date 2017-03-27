@@ -2,7 +2,9 @@
 nginx_lua 基础镜像
 
 安装目录:/usr/loca/nginx/
+
 源码目录:/usr/local/src/
+
 集成的模块和版本信息：
 ```
 ENV nginx_v=nginx-1.11.1
